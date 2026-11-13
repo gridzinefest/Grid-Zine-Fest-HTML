@@ -19,7 +19,7 @@
   max-height: var(--spacing-lg);
 }
 
-.logo-wrapper-o1it {
+.logo-wrapper-i8sn {
   display: contents;
 }
  
@@ -217,55 +217,47 @@
   text-decoration: none;
 }
  
+.past-fests-thq-archive-link-elm.past-fests-thq-archive-link-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.past-fests-thq-link-elm5.past-fests-thq-link-elm5 {
+  border-color: var(--color-on-surface);
+  border-width: 1px;
+  border-top-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+ 
 .past-fests-container15.past-fests-container15 {
-  display: flex;
-  align-items: stretch;
-  flex-direction: column;
-  justify-content: flex-start;
+  display: none;
 }
  
 .past-fests-container16.past-fests-container16 {
-  display: flex;
-  align-items: stretch;
-  flex-direction: column;
-  justify-content: flex-start;
+  display: contents;
 }
  
 .past-fests-container17.past-fests-container17 {
-  display: flex;
-  align-items: stretch;
-  flex-direction: column;
-  justify-content: flex-start;
+  display: none;
 }
  
 .past-fests-container18.past-fests-container18 {
-  display: none;
+  display: contents;
 }
  
 .past-fests-container19.past-fests-container19 {
-  display: contents;
+  display: none;
 }
  
 .past-fests-container20.past-fests-container20 {
-  display: none;
+  display: contents;
 }
  
 .past-fests-container21.past-fests-container21 {
-  display: contents;
+  display: none;
 }
  
 .past-fests-container22.past-fests-container22 {
-  display: none;
-}
- 
-.past-fests-container23.past-fests-container23 {
-  display: contents;
-}
- 
-.past-fests-container24.past-fests-container24 {
-  display: none;
-}
- 
-.past-fests-container25.past-fests-container25 {
   display: contents;
 }

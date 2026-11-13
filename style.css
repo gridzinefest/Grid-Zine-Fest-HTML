@@ -137,6 +137,16 @@
   background-color: transparent;
 }
  
+.section-title {
+  font-size: var(--font-size-3xl);
+  font-style: var(--font-style-heading);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-heading);
+  text-transform: var(--text-transform-heading);
+}
+ 
 .hero-title {
   color: var(--color-on-surface);
   font-size: var(--font-size-4xl);
@@ -2930,6 +2940,138 @@
   outline-offset: 2px;
 }
  
+.articles-content {
+  color: var(--color-on-surface);
+  width: 100%;
+  padding: var(--spacing-4xl) var(--spacing-xl);
+  background-color: var(--color-surface);
+}
+ 
+.articles-content-container {
+  gap: var(--spacing-2xl);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  max-width: var(--content-max-width);
+  flex-direction: column;
+}
+ 
+.articles-content-header {
+  gap: var(--spacing-lg);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+ 
+.articles-content-list {
+  margin: 0;
+  display: flex;
+  padding: 0;
+  border-top: 1px solid var(--color-outline);
+  list-style: none;
+  flex-direction: column;
+}
+ 
+.articles-content-title {
+  margin: 0;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+ 
+.articles-content-all {
+  color: var(--color-on-surface);
+  font-size: var(--font-size-base);
+  transition: text-decoration-color 0.2s ease;
+  flex-shrink: 0;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-body);
+  text-decoration: underline;
+  text-decoration-color: var(--color-outline);
+  text-underline-offset: 0.35em;
+  text-decoration-thickness: 1px;
+}
+ 
+.articles-content-item {
+  display: flex;
+  border-bottom: 1px solid var(--color-border);
+  flex-direction: column;
+}
+ 
+.articles-content-row {
+  gap: var(--spacing-xl);
+  color: var(--color-on-surface);
+  display: grid;
+  padding: var(--spacing-xl) 0;
+  align-items: baseline;
+  text-decoration: none;
+  grid-template-columns: 8rem minmax(0, 1fr) auto auto;
+}
+ 
+.articles-content-date {
+  color: var(--color-on-surface-secondary);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.4;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+ 
+.articles-content-body {
+  gap: var(--spacing-xs);
+  display: flex;
+  max-width: 42rem;
+  min-width: 0;
+  flex-direction: column;
+}
+ 
+.articles-content-time {
+  color: var(--color-on-surface-secondary);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.4;
+  white-space: nowrap;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+ 
+.articles-content-arrow {
+  color: var(--color-on-surface-secondary);
+  align-self: center;
+  transition: transform 0.2s ease, color 0.2s ease;
+  flex-shrink: 0;
+}
+ 
+.articles-content-name {
+  margin: 0;
+  font-size: var(--font-size-2xl);
+  text-wrap: balance;
+  font-style: var(--font-style-heading);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-heading);
+  text-transform: var(--text-transform-heading);
+}
+ 
+.articles-content-text {
+  color: var(--color-on-surface-secondary);
+  margin: 0;
+  font-size: var(--font-size-base);
+  text-wrap: pretty;
+  font-family: var(--font-family-body);
+  line-height: var(--line-height-body);
+}
+ 
+.articles-content-all:hover {
+  text-decoration-color: currentColor;
+}
+ 
+.articles-content-row:hover .articles-content-arrow {
+  color: var(--color-on-surface);
+  transform: translate(2px, -2px);
+}
+ 
 .Content {
   font-size: 16px;
   font-family: Inter, Inter Fallback;
@@ -3294,6 +3436,29 @@
   }
   .contact-faq {
     padding: var(--spacing-2xl) 0;
+  }
+  .articles-content {
+    padding: var(--spacing-4xl) var(--spacing-lg);
+  }
+  .articles-content-row {
+    gap: var(--spacing-xs) var(--spacing-md);
+    padding: var(--spacing-lg) 0;
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .articles-content-date {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .articles-content-body {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+  .articles-content-time {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .articles-content-arrow {
+    display: none;
   }
 }
  
