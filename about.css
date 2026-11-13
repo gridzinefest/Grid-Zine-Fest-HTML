@@ -19,7 +19,7 @@
   max-height: var(--spacing-lg);
 }
 
-.logo-wrapper-pev8 {
+.logo-wrapper-2fbq {
   display: contents;
 }
  
@@ -211,4 +211,17 @@
  
 .about-container5.about-container5 {
   display: contents;
+}
+ 
+@media(max-width: 479px) {
+  .about-thq-hc-wrap-elm1.about-thq-hc-wrap-elm1 {
+    width: 451px;
+  }
+  .about-image.about-image {
+    width: 438px;
+    margin-right: 0px;
+  }
+  .about-thq-hc-lede-elm1.about-thq-hc-lede-elm1 {
+    width: 442px;
+  }
 }
