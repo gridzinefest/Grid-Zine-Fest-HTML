@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Authenticity — Heatcheck</title>
+    <meta
+      name="description"
+      content="How we legit-check every pair: labels, stitching, UV lamp and materials, plus our double-back promise."
+    />
+    <meta property="og:title" content="Authenticity — Heatcheck" />
+    <meta
+      property="og:description"
+      content="How we legit-check every pair: labels, stitching, UV lamp and materials, plus our double-back promise."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:title" content="Authenticity — Heatcheck" />
+    <meta
+      name="twitter:description"
+      content="How we legit-check every pair: labels, stitching, UV lamp and materials, plus our double-back promise."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}/* A link wrapped around a flex or grid item draws no box of its own, so it has   nothing to paint a focus ring on. The ring goes on the element it wraps. */a[data-thq-link-wrapper]:focus-visible > * {  outline: 2px solid Highlight;  outline: 5px auto -webkit-focus-ring-color;  outline-offset: 2px;}/* A box the canvas draws as a block can be written as its own link on the page,   and a link is laid out in line with text unless a rule says otherwise. Zero   weight: any rule of the page's own still decides. */:where(a[data-thq-link-box]) {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inconsolata, Inconsolata Fallback;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0;
+        line-height: 1.55;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style data-tag="font-fallbacks">
+      @font-face {
+        font-family: Inter Fallback;
+        src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("Arimo"), local("Roboto"), local("Roboto-Regular");
+        size-adjust: 106.96%;
+        ascent-override: 90.6%;
+        descent-override: 22.53%;
+        line-gap-override: 0%;
+      }
+      @font-face {
+        font-family: Noto Sans Fallback;
+        src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("Arimo"), local("Roboto"), local("Roboto-Regular");
+        size-adjust: 106.07%;
+        ascent-override: 100.78%;
+        descent-override: 27.62%;
+        line-gap-override: 0%;
+      }
+      @font-face {
+        font-family: Archivo Black Fallback;
+        src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("Arimo"), local("Roboto"), local("Roboto-Regular");
+        size-adjust: 124.12%;
+        ascent-override: 70.74%;
+        descent-override: 16.92%;
+        line-gap-override: 0%;
+      }
+      @font-face {
+        font-family: STIX Two Text Fallback;
+        src: local("Times New Roman"), local("TimesNewRomanPSMT"), local("Liberation Serif"), local("Tinos");
+        size-adjust: 104.65%;
+        ascent-override: 72.82%;
+        descent-override: 22.74%;
+        line-gap-override: 23.89%;
+      }
+      @font-face {
+        font-family: Inconsolata Fallback;
+        src: local("Courier New"), local("CourierNewPSMT"), local("Liberation Mono"), local("Cousine");
+        size-adjust: 83.32%;
+        ascent-override: 103.1%;
+        descent-override: 22.8%;
+        line-gap-override: 0%;
+      }
+    </style>
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"],
+        [data-thq="thq-dropdown"]:focus-within > [data-thq="thq-dropdown-list"],
+        [data-thq="thq-dropdown"] > [data-thq="thq-dropdown-list"]:hover {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"],
+        [data-thq="thq-dropdown"]:focus-within > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <style>
+      a:has(> [class*="-thq-product-card-elm"]) { display: contents; }
+      [class*="-thq-product-item-wrapper-elm"] > a { display: contents; }
+      [data-thq="slider-button-prev"]:has(> *)::after, [data-thq="slider-button-next"]:has(> *)::after { display: none; }
+      [data-thq="slider-button-prev"]:has(> *), [data-thq="slider-button-next"]:has(> *) { width: auto; height: auto; margin-top: 0; }
+    </style>
+    <style>
+      a:focus-visible,
+      button:focus-visible,
+      input:focus-visible,
+      select:focus-visible,
+      textarea:focus-visible,
+      summary:focus-visible,
+      [tabindex]:focus-visible,
+      [role="button"]:focus-visible,
+      [role="link"]:focus-visible,
+      [role="radio"]:focus-visible,
+      [role="checkbox"]:focus-visible,
+      [role="tab"]:focus-visible,
+      [role="menuitem"]:focus-visible {
+        outline: 2px solid var(--color-primary, #2563eb);
+        outline-offset: 2px;
+      }
+      [role="radio"]:focus-visible {
+        outline-offset: 0;
+      }
+      [tabindex="-1"]:focus-visible {
+        outline: none;
+      }
+      .tq-skip-link {
+        position: fixed;
+        top: -100px;
+        left: 8px;
+        z-index: 100000;
+        padding: 10px 16px;
+        border-radius: 0 0 6px 6px;
+        background: var(--color-primary, #2563eb);
+        color: var(--color-on-primary, #ffffff);
+        font: 600 14px/1.2 system-ui, -apple-system, "Segoe UI", sans-serif;
+        text-decoration: none;
+        transition: top 0.15s ease;
+      }
+      .tq-skip-link:focus {
+        top: 0;
+      }
+    </style>
+
+    <script>
+      (function () {
+        var documentUrl = String(document.URL).split('#')[0]
+        window.addEventListener(
+          'error',
+          function (event) {
+            if (!event.error || String(event.filename || '').split('#')[0] !== documentUrl) {
+              return
+            }
+            event.preventDefault()
+            event.stopImmediatePropagation()
+            console.warn('A custom code script on this page failed:', event.error)
+          },
+          true
+        )
+      })()
+    </script>
+    <script>
+      (function () {
+        if (window.__tqSkipLink) { return; }
+        window.__tqSkipLink = true;
+
+        var TARGET_ID = 'tq-main';
+        var CHROME = 'header, nav, footer, [role="banner"], [role="contentinfo"], .tq-skip-link';
+
+        function appRoot() {
+          return document.getElementById('__next') || document.body;
+        }
+
+        function resolveTarget() {
+          var root = appRoot();
+          if (!root) { return null; }
+          var landmark = root.querySelector('main, [role="main"]');
+          if (landmark) { return landmark; }
+          // A page root holding [nav, section, section, …, footer]: the content
+          // starts at the first child that is not chrome.
+          var page = root.firstElementChild || root;
+          var children = page.children || [];
+          for (var i = 0; i < children.length; i++) {
+            if (!children[i].matches(CHROME)) { return children[i]; }
+          }
+          return page;
+        }
+
+        function ensureTarget() {
+          var target = resolveTarget();
+          if (!target) { return null; }
+          if (!target.id) { target.id = TARGET_ID; }
+          // Without this the browser scrolls to the anchor but leaves focus at the
+          // top of the page, so the next Tab walks back into the navigation.
+          if (!target.hasAttribute('tabindex')) { target.setAttribute('tabindex', '-1'); }
+          return target;
+        }
+
+        function ensureLink() {
+          var existing = document.querySelector('.tq-skip-link');
+          var target = ensureTarget();
+          if (!target) { return; }
+          var href = '#' + target.id;
+          if (existing) { existing.setAttribute('href', href); return; }
+          var link = document.createElement('a');
+          link.className = 'tq-skip-link';
+          link.setAttribute('href', href);
+          link.textContent = 'Skip to content';
+          // Before the app's own root, so it is first in the document without
+          // moving anything the app rendered.
+          var root = appRoot();
+          if (root && root.parentNode) {
+            root.parentNode.insertBefore(link, root);
+          } else {
+            document.body.insertBefore(link, document.body.firstChild);
+          }
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', ensureLink);
+        } else {
+          ensureLink();
+        }
+
+        // A client-side route change swaps the page's content, so the target the link
+        // points at has to be resolved again.
+        if (typeof MutationObserver !== 'undefined') {
+          var pending = false;
+          new MutationObserver(function () {
+            if (pending) { return; }
+            pending = true;
+            window.requestAnimationFrame(function () { pending = false; ensureLink(); });
+          }).observe(document.documentElement, { subtree: true, childList: true });
+        }
+      })();
+    </script>
+  <script>
+(function (root) {
+  root.setAttribute('data-tq-motion-on', '')
+  setTimeout(function () {
+    if (!window.__tqMotionRuntime) { root.removeAttribute('data-tq-motion-on') }
+  }, 4000)
+})(document.documentElement)
+</script>
+<script defer src="./tq-motion.js"></script>
+</head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./authenticity1.css" rel="stylesheet" />
+
+      <div data-tq-el="6jjzj3" class="authenticity1-container10">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div data-tq-el="1jd5eg" role="banner" class="navigation-container1">
+            <nav data-tq-el="1brzve" class="hc-nav">
+              <div data-tq-el="1ljm9s" class="hc-nav-bar">
+                <div class="hc-nav-left">
+                  <a
+                    href="index.html"
+                    data-thq-link-wrapper="true"
+                    class="navigation-navlink1"
+                  >
+                    <logo-wrapper
+                      class="navigation-component1"
+                      rootclassname="logoundefined"
+                    >
+                      <!--Logo component-->
+                      <div
+                        data-tq-el="1n82jq"
+                        class="logo-container logoroot-class-name"
+                      >
+                        <div data-tq-el="1t2172" class="tq-brand-lockup">
+                          <img
+                            loading="eager"
+                            decoding="async"
+                            alt="image"
+                            src="public/grid_logo_2024-200h.png"
+                            data-tq-el="14wxme"
+                            fetchpriority="high"
+                            class="logo-image"
+                          />
+                        </div>
+                      </div>
+                    </logo-wrapper>
+                  </a>
+                </div>
+                <a
+                  href="index.html"
+                  data-thq-link-box="true"
+                  class="navigation-thq-hc-nav-brand-elm1 hc-nav-brand"
+                ></a>
+                <div class="hc-nav-right">
+                  <label
+                    for="hc-nav-toggle"
+                    aria-label="Open menu"
+                    class="hc-nav-burger"
+                  >
+                    <svg
+                      fill="none"
+                      width="26"
+                      height="26"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      stroke-width="3"
+                      stroke-linecap="square"
+                    >
+                      <line x1="3" x2="21" y1="6" y2="6"></line>
+                      <line x1="3" x2="21" y1="12" y2="12"></line>
+                      <line x1="3" x2="21" y1="18" y2="18"></line>
+                    </svg>
+                  </label>
+                  <div data-thq="thq-dropdown" class="hc-nav-drop">
+                    <ul
+                      data-thq="thq-dropdown-list"
+                      class="navigation-thq-hc-nav-panel-elm hc-nav-panel"
+                    >
+                      <li class="hc-nav-item">
+                        <a
+                          href="past-fests.html"
+                          data-thq-link-box="true"
+                          class="hc-nav-tile"
+                        >
+                          <span class="hc-nav-tile-name">
+                            <span>Sneakers</span>
+                          </span>
+                          <span class="hc-nav-tile-note">
+                            <span>Deadstock and near-new pairs, MX 24–30</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="hc-nav-item">
+                        <a
+                          href="past-fests.html"
+                          data-thq-link-box="true"
+                          class="hc-nav-tile"
+                        >
+                          <span class="hc-nav-tile-name">
+                            <span>Hoodies</span>
+                          </span>
+                          <span class="hc-nav-tile-note">
+                            <span>
+                              Heavyweight fleece, washed before shipping
+                            </span>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="hc-nav-item">
+                        <a
+                          href="past-fests.html"
+                          data-thq-link-box="true"
+                          class="hc-nav-tile"
+                        >
+                          <span class="hc-nav-tile-name">
+                            <span>Caps</span>
+                          </span>
+                          <span class="hc-nav-tile-note">
+                            <span>Snapbacks and fitted, one size to 7⅝</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="hc-nav-item">
+                        <a
+                          href="past-fests.html"
+                          data-thq-link-box="true"
+                          class="hc-nav-tile"
+                        >
+                          <span class="hc-nav-tile-name">
+                            <span>Care</span>
+                          </span>
+                          <span class="hc-nav-tile-note">
+                            <span>Brushes, cleaner and laces</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="hc-nav-item hc-nav-item-wide">
+                        <a
+                          href="drop-calendar.html"
+                          data-thq-link-box="true"
+                          class="hc-nav-feature"
+                        >
+                          <span class="hc-nav-feature-kicker">
+                            <span>Up next</span>
+                          </span>
+                          <span class="hc-nav-feature-title">
+                            <span>High-top week, Saturday 10:00</span>
+                          </span>
+                          <span class="hc-nav-feature-go">
+                            <span>See the calendar →</span>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <a
+                    href="about.html"
+                    data-thq-link-box="true"
+                    class="navigation-thq-hc-nav-link-elm1 hc-nav-link"
+                  >
+                    <span><span>About</span></span>
+                  </a>
+                  <a
+                    href="newsletter.html"
+                    data-thq-link-box="true"
+                    class="hc-nav-link"
+                  >
+                    <span class="navigation-text2">
+                      <span>Newsletter</span>
+                    </span>
+                  </a>
+                  <a
+                    href="past-fests.html"
+                    data-thq="thq-dropdown-toggle"
+                    tabindex="0"
+                    aria-haspopup="true"
+                    data-thq-link-wrapper="true"
+                    class="navigation-navlink2"
+                  >
+                    <div
+                      role="button"
+                      class="navigation-thq-hc-nav-toggle-elm hc-nav-toggle"
+                    >
+                      <span class="hc-nav-toggle-text">
+                        <span>Past Fests</span>
+                      </span>
+                      <div data-thq="thq-dropdown-arrow" class="hc-nav-chev">
+                        <svg
+                          fill="none"
+                          width="16"
+                          height="16"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                          stroke-width="3.5"
+                          stroke-linecap="square"
+                        >
+                          <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <input
+                type="checkbox"
+                id="hc-nav-toggle"
+                data-tq-el="15633p"
+                class="navigation-thq-hc-nav-check-elm hc-nav-check"
+              />
+              <div data-tq-el="1g3ybu" class="hc-nav-overlay">
+                <div class="hc-nav-overlay-head">
+                  <a
+                    href="index.html"
+                    data-thq-link-box="true"
+                    class="hc-nav-brand"
+                  >
+                    <logo-wrapper-0xhc class="logo-wrapper-0xhc">
+                      <!--Logo component-->
+                      <div data-tq-el="1n82jq" class="logo-container1 logo">
+                        <div data-tq-el="1t2172" class="tq-brand-lockup">
+                          <img
+                            loading="eager"
+                            decoding="async"
+                            alt="image"
+                            src="public/grid_logo_2024-200h.png"
+                            data-tq-el="14wxme"
+                            fetchpriority="auto"
+                            class="logo-image1"
+                          />
+                        </div>
+                      </div>
+                    </logo-wrapper-0xhc>
+                  </a>
+                  <label
+                    for="hc-nav-toggle"
+                    aria-label="Close menu"
+                    class="hc-nav-close"
+                  >
+                    <svg
+                      fill="none"
+                      width="26"
+                      height="26"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      stroke-width="3"
+                      stroke-linecap="square"
+                    >
+                      <line x1="18" x2="6" y1="6" y2="18"></line>
+                      <line x1="6" x2="18" y1="6" y2="18"></line>
+                    </svg>
+                  </label>
+                </div>
+                <div class="hc-nav-overlay-links">
+                  <a
+                    href="index.html"
+                    data-thq-link-box="true"
+                    class="hc-nav-overlay-link"
+                  >
+                    <span><span>Home</span></span>
+                  </a>
+                  <a
+                    href="past-fests.html"
+                    data-thq-link-box="true"
+                    class="hc-nav-overlay-link"
+                  >
+                    <span><span>Drops</span></span>
+                  </a>
+                  <a
+                    href="drop-calendar.html"
+                    data-thq-link-box="true"
+                    class="hc-nav-overlay-link"
+                  >
+                    <span><span>Drop calendar</span></span>
+                  </a>
+                  <a
+                    href="newsletter.html"
+                    data-thq-link-box="true"
+                    class="hc-nav-overlay-link"
+                  >
+                    <span><span>Authenticity</span></span>
+                  </a>
+                  <a
+                    href="about.html"
+                    data-thq-link-box="true"
+                    class="hc-nav-overlay-link"
+                  >
+                    <span><span>Contact</span></span>
+                  </a>
+                </div>
+                <div class="hc-nav-overlay-foot">
+                  <a
+                    href="past-fests.html"
+                    data-thq-link-box="true"
+                    class="hc-nav-overlay-cta"
+                  >
+                    <span><span>Shop the drop</span></span>
+                  </a>
+                  <p class="hc-nav-overlay-note">
+                    <span>Next drop Saturday 10:00 · Calle Garmendia 118</span>
+                  </p>
+                </div>
+              </div>
+            </nav>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <style>
+                  @keyframes hc-nav-panel-bridge-off {
+                  to {
+                    visibility: hidden;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <div class="navigation-container4">
+              <div class="navigation-container5">
+                <style>
+                  @media (max-width: 1200px) {
+                  .hc-nav-ghost {
+                    display: none;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section data-tq-el="1gz829" id="tq-main" class="auth-hero">
+          <div data-tq-el="1did0f" class="auth-hero-inner hc-wrap">
+            <div class="auth-hero-copy">
+              <span class="hc-kicker-orange hc-kicker">Authenticity</span>
+              <h1 data-tq-el="b7u9o8" class="hc-title auth-hero-title">
+                <span>Legit or it doesn’t</span>
+                <span class="authenticity1-thq-hc-mark-elm">
+                  leave the shop
+                </span>
+              </h1>
+              <p class="hc-lede">
+                Every pair, hoodie and cap gets checked by hand in Hermosillo
+                before it gets a price tag. Here’s exactly what we look at.
+              </p>
+            </div>
+            <div class="auth-hero-shot">
+              <img
+                loading="eager"
+                decoding="async"
+                alt="Silver-grey low-top lit against a dark ground"
+                src="https://images.unsplash.com/photo-1656164603279-b989e21168ba?auto=format&amp;fit=crop&amp;w=1500&amp;q=80"
+                data-tq-el="4q2sqp"
+                class="auth-hero-img"
+              />
+              <div class="auth-hero-tag">
+                <span class="auth-hero-tag-word">Authentic</span>
+                <div class="hc-barcode"></div>
+                <span class="auth-hero-tag-sign">TL · NY</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section data-tq-el="1g7asn" class="auth-steps">
+          <div data-tq-el="17nm6m" class="auth-steps-inner hc-wrap">
+            <div
+              data-motion-preset="fade-in"
+              data-motion-trigger="in-view"
+              data-motion-duration="0.6"
+              data-motion-delay="0"
+              data-motion-easing="ease-out"
+              data-motion-repeat="0"
+              data-motion-repeat-type="loop"
+              data-motion-in-view-once="true"
+              data-motion-in-view-amount="0.1"
+              data-motion-stagger="0"
+              data-motion-distance="0"
+              data-motion-scrub="0"
+              data-motion-scroll-offset="pass"
+              data-tq-motion="true"
+              class="authenticity1-container11"
+            >
+              <div class="auth-steps-preview">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  alt="Black and red basketball shoe on a white surface"
+                  src="https://images.unsplash.com/photo-1710553455489-710f59318f84?auto=format&amp;fit=crop&amp;w=1500&amp;q=80"
+                  data-tq-el="gxsny4"
+                  class="auth-steps-img"
+                />
+                <div aria-hidden="true" class="auth-steps-scan"></div>
+              </div>
+            </div>
+            <div
+              data-motion-preset="fade-in"
+              data-motion-trigger="in-view"
+              data-motion-duration="0.6"
+              data-motion-delay="0.08"
+              data-motion-easing="ease-out"
+              data-motion-repeat="0"
+              data-motion-repeat-type="loop"
+              data-motion-in-view-once="true"
+              data-motion-in-view-amount="0.1"
+              data-motion-stagger="0.08"
+              data-motion-distance="0"
+              data-motion-scrub="0"
+              data-motion-scroll-offset="pass"
+              data-tq-motion="true"
+              class="authenticity1-container12"
+            >
+              <div class="auth-steps-row">
+                <div class="auth-step-on auth-step">
+                  <div class="auth-step-bar"></div>
+                  <h3 data-tq-el="19skqf" class="auth-step-title">
+                    Box and labels
+                  </h3>
+                  <p class="auth-step-text">
+                    Box label, size tag and inner tag must match: style, colour,
+                    size, factory.
+                  </p>
+                </div>
+                <div class="auth-step">
+                  <div class="auth-step-bar"></div>
+                  <h3 data-tq-el="1tdt54" class="auth-step-title">
+                    Shape and stitch
+                  </h3>
+                  <p class="auth-step-text">
+                    Toe box, heel height and stitch spacing measured against
+                    pairs we know are real.
+                  </p>
+                </div>
+                <div class="auth-step">
+                  <div class="auth-step-bar"></div>
+                  <h3 data-tq-el="1vrov2" class="auth-step-title">UV lamp</h3>
+                  <p class="auth-step-text">
+                    Hidden guide marks, glue stains and swapped insoles light up
+                    under the lamp.
+                  </p>
+                </div>
+                <div class="auth-step">
+                  <div class="auth-step-bar"></div>
+                  <h3 data-tq-el="1qopla" class="auth-step-title">Materials</h3>
+                  <p class="auth-step-text">
+                    Leather grain, suede nap, foam density and the smell of the
+                    glue. Fakes smell different.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section data-tq-el="14e9j9" class="auth-tag">
+          <div data-tq-el="wjo6u4" class="auth-tag-inner hc-wrap">
+            <div aria-hidden="true" class="auth-tag-art">
+              <div class="auth-tag-card">
+                <div class="auth-tag-hole"></div>
+                <span class="auth-tag-head">Heatcheck · Authentic</span>
+                <span class="auth-tag-name">Bred Toe Mid</span>
+                <span class="auth-tag-meta">
+                  <span class="authenticity1-thq-auth-tag-chip-elm1">
+                    MX 27
+                  </span>
+                  <span class="authenticity1-thq-auth-tag-chip-elm2">DS</span>
+                </span>
+                <div class="auth-tag-bars"></div>
+                <span class="auth-tag-sign">
+                  <span>Checked: TL</span>
+                  <span>Second eye: NY</span>
+                </span>
+              </div>
+              <span class="auth-tag-sticker">Legit</span>
+            </div>
+            <div class="auth-tag-copy">
+              <h2 data-tq-el="1t269x" class="hc-title auth-tag-title">
+                The tag is our signature
+              </h2>
+              <p class="hc-lede">
+                It hangs off every pair and stays there until you cut it. Size,
+                condition and the initials of both people who checked it.
+              </p>
+              <ul class="auth-tag-list">
+                <li class="auth-tag-row">
+                  <span>
+                    Keep it on until you’re sure: returns within 7 days need the
+                    tag attached.
+                  </span>
+                </li>
+                <li class="auth-tag-row">
+                  <span>
+                    Scan the barcode in the shop and we pull up the check photos
+                    for that exact pair.
+                  </span>
+                </li>
+                <li class="auth-tag-row">
+                  <span>
+                    Selling it back later? A pair with our tag skips the line.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-tq-el="1rzmz6" class="auth-faq">
+          <div data-tq-el="18djj4" class="auth-faq-inner hc-wrap">
+            <div
+              data-motion-preset="slide-up"
+              data-motion-trigger="in-view"
+              data-motion-duration="0.6"
+              data-motion-delay="0"
+              data-motion-easing="ease-out"
+              data-motion-repeat="0"
+              data-motion-repeat-type="loop"
+              data-motion-in-view-once="true"
+              data-motion-in-view-amount="0.25"
+              data-motion-stagger="0"
+              data-motion-distance="24"
+              data-motion-scrub="0"
+              data-motion-scroll-offset="pass"
+              data-tq-motion="true"
+              class="authenticity1-container13"
+            >
+              <h2 data-tq-el="dyqljg" class="auth-faq-title hc-title">
+                Questions we get at the counter
+              </h2>
+            </div>
+            <div
+              data-motion-preset="fade-in"
+              data-motion-trigger="in-view"
+              data-motion-duration="0.6"
+              data-motion-delay="0.08"
+              data-motion-easing="ease-out"
+              data-motion-repeat="0"
+              data-motion-repeat-type="loop"
+              data-motion-in-view-once="true"
+              data-motion-in-view-amount="0.1"
+              data-motion-stagger="0"
+              data-motion-distance="0"
+              data-motion-scrub="0"
+              data-motion-scroll-offset="pass"
+              data-tq-motion="true"
+              class="authenticity1-container14"
+            >
+              <div class="auth-faq-list">
+                <div
+                  data-thq="accordion"
+                  class="authenticity1-thq-auth-faq-item-elm1 auth-faq-item"
+                >
+                  <details
+                    name="auth-faq"
+                    data-thq="accordion-trigger"
+                    class="authenticity1-accordion-trigger1"
+                  >
+                    <summary
+                      data-thq="accordion-summary"
+                      class="authenticity1-thq-auth-faq-q-elm1 auth-faq-q"
+                    >
+                      <span class="auth-faq-q-text">
+                        What if a pair fails a check somewhere else?
+                      </span>
+                      <div
+                        data-thq="accordion-icon"
+                        class="authenticity1-thq-auth-faq-icon-elm1 auth-faq-icon"
+                      >
+                        <svg
+                          fill="none"
+                          width="22"
+                          height="22"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                          stroke-width="3"
+                          stroke-linecap="square"
+                        >
+                          <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                      </div>
+                    </summary>
+                  </details>
+                  <div data-thq="accordion-content" class="auth-faq-body">
+                    <div class="auth-faq-pad">
+                      <p class="auth-faq-a">
+                        Send us the second opinion with photos. If it holds up,
+                        you get the full price back plus MX$1,000, and we pay
+                        the return shipping.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-thq="accordion"
+                  class="authenticity1-thq-auth-faq-item-elm2 auth-faq-item"
+                >
+                  <details
+                    name="auth-faq"
+                    data-thq="accordion-trigger"
+                    class="authenticity1-accordion-trigger2"
+                  >
+                    <summary
+                      data-thq="accordion-summary"
+                      class="authenticity1-thq-auth-faq-q-elm2 auth-faq-q"
+                    >
+                      <span class="auth-faq-q-text">
+                        Do you check hoodies and caps too?
+                      </span>
+                      <div
+                        data-thq="accordion-icon"
+                        class="authenticity1-thq-auth-faq-icon-elm2 auth-faq-icon"
+                      >
+                        <svg
+                          fill="none"
+                          width="22"
+                          height="22"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                          stroke-width="3"
+                          stroke-linecap="square"
+                        >
+                          <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                      </div>
+                    </summary>
+                  </details>
+                  <div data-thq="accordion-content" class="auth-faq-body">
+                    <div class="auth-faq-pad">
+                      <p class="auth-faq-a">
+                        Yes. Labels, wash tags, stitching and embroidery
+                        density. Most fakes in apparel give themselves away on
+                        the wash tag.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-thq="accordion"
+                  class="authenticity1-thq-auth-faq-item-elm3 auth-faq-item"
+                >
+                  <details
+                    name="auth-faq"
+                    data-thq="accordion-trigger"
+                    class="authenticity1-accordion-trigger3"
+                  >
+                    <summary
+                      data-thq="accordion-summary"
+                      class="authenticity1-thq-auth-faq-q-elm3 auth-faq-q"
+                    >
+                      <span class="auth-faq-q-text">
+                        Can I bring my own pair for a check?
+                      </span>
+                      <div
+                        data-thq="accordion-icon"
+                        class="authenticity1-thq-auth-faq-icon-elm3 auth-faq-icon"
+                      >
+                        <svg
+                          fill="none"
+                          width="22"
+                          height="22"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                          stroke-width="3"
+                          stroke-linecap="square"
+                        >
+                          <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                      </div>
+                    </summary>
+                  </details>
+                  <div data-thq="accordion-content" class="auth-faq-body">
+                    <div class="auth-faq-pad">
+                      <p class="auth-faq-a">
+                        Tuesday to Friday, free for anything you bought from us
+                        and MX$250 for anything else. Takes about 20 minutes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-thq="accordion"
+                  class="authenticity1-thq-auth-faq-item-elm4 auth-faq-item"
+                >
+                  <details
+                    name="auth-faq"
+                    data-thq="accordion-trigger"
+                    class="authenticity1-accordion-trigger4"
+                  >
+                    <summary
+                      data-thq="accordion-summary"
+                      class="authenticity1-thq-auth-faq-q-elm4 auth-faq-q"
+                    >
+                      <span class="auth-faq-q-text">
+                        Who does the checking?
+                      </span>
+                      <div
+                        data-thq="accordion-icon"
+                        class="authenticity1-thq-auth-faq-icon-elm4 auth-faq-icon"
+                      >
+                        <svg
+                          fill="none"
+                          width="22"
+                          height="22"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                          stroke-width="3"
+                          stroke-linecap="square"
+                        >
+                          <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                      </div>
+                    </summary>
+                  </details>
+                  <div data-thq="accordion-content" class="auth-faq-body">
+                    <div class="auth-faq-pad">
+                      <p class="auth-faq-a">
+                        Tadeo Ledezma checks every pair, Nayeli Yáñez checks
+                        every hoodie and cap. A pair needs both their initials
+                        on the tag before it ships.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-thq="accordion"
+                  class="authenticity1-thq-auth-faq-item-elm5 auth-faq-item"
+                >
+                  <details
+                    name="auth-faq"
+                    data-thq="accordion-trigger"
+                    class="authenticity1-accordion-trigger5"
+                  >
+                    <summary
+                      data-thq="accordion-summary"
+                      class="authenticity1-thq-auth-faq-q-elm5 auth-faq-q"
+                    >
+                      <span class="auth-faq-q-text">
+                        Do you sell replicas or B-grade pairs?
+                      </span>
+                      <div
+                        data-thq="accordion-icon"
+                        class="authenticity1-thq-auth-faq-icon-elm5 auth-faq-icon"
+                      >
+                        <svg
+                          fill="none"
+                          width="22"
+                          height="22"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                          stroke-width="3"
+                          stroke-linecap="square"
+                        >
+                          <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                      </div>
+                    </summary>
+                  </details>
+                  <div data-thq="accordion-content" class="auth-faq-body">
+                    <div class="auth-faq-pad">
+                      <p class="auth-faq-a">
+                        Never. If we can’t prove a pair is real, we hand it back
+                        to the seller and tell them why.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section data-tq-el="j44y4h" class="auth-cta">
+          <div data-tq-el="c2xgfk" class="auth-cta-inner hc-wrap">
+            <div
+              data-motion-preset="slide-up"
+              data-motion-trigger="in-view"
+              data-motion-duration="0.6"
+              data-motion-delay="0"
+              data-motion-easing="ease-out"
+              data-motion-repeat="0"
+              data-motion-repeat-type="loop"
+              data-motion-in-view-once="true"
+              data-motion-in-view-amount="0.25"
+              data-motion-stagger="0"
+              data-motion-distance="24"
+              data-motion-scrub="0"
+              data-motion-scroll-offset="pass"
+              data-tq-motion="true"
+              class="authenticity1-container15"
+            >
+              <h2 data-tq-el="b6zzsh" class="hc-title auth-cta-title">
+                Checked pairs, ready to ship
+              </h2>
+            </div>
+            <div
+              data-motion-preset="slide-up"
+              data-motion-trigger="in-view"
+              data-motion-duration="0.6"
+              data-motion-delay="0.08"
+              data-motion-easing="ease-out"
+              data-motion-repeat="0"
+              data-motion-repeat-type="loop"
+              data-motion-in-view-once="true"
+              data-motion-in-view-amount="0.1"
+              data-motion-stagger="0.08"
+              data-motion-distance="24"
+              data-motion-scrub="0"
+              data-motion-scroll-offset="pass"
+              data-tq-motion="true"
+              class="authenticity1-container16"
+            >
+              <div class="auth-cta-actions hc-actions">
+                <a
+                  href="past-fests.html"
+                  data-thq-link-box="true"
+                  class="hc-cta btn btn-primary"
+                >
+                  <span>Shop the drop</span>
+                </a>
+                <a
+                  href="about.html"
+                  data-thq-link-box="true"
+                  class="btn-outline hc-ghost btn"
+                >
+                  <span>Book a check</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="authenticity1-container17">
+          <div class="authenticity1-container18">
+            <style>
+              @keyframes hc-pop {
+              0% {
+                scale: 0.55;
+              }
+              70% {
+                scale: 1.08;
+              }
+              100% {
+                scale: 1;
+              }
+              }
+              @keyframes auth-scan {
+              0% {
+                left: 4%;
+              }
+              100% {
+                left: 94%;
+              }
+              }
+            </style>
+          </div>
+        </div>
+        <div class="authenticity1-container19">
+          <div class="authenticity1-container20">
+            <style>
+              @media (prefers-reduced-motion: reduce) {
+              .auth-steps-scan, .auth-hero-tag {
+                animation: none;
+              }
+              }
+            </style>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div data-tq-el="1vgmu7" role="contentinfo" class="footer-container">
+            <footer data-tq-el="1nfd3b" class="hc-foot">
+              <div data-tq-el="o8bixh" class="hc-foot-inner">
+                <div class="hc-foot-top">
+                  <a
+                    href="index.html"
+                    data-thq-link-box="true"
+                    class="hc-foot-brand"
+                  >
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      alt="image"
+                      src="public/slac-logo-800x800-1-200h.webp"
+                      data-tq-el="1ipcee"
+                      class="footer-image"
+                    />
+                  </a>
+                  <p class="hc-foot-note">
+                    <span>
+                      Grid Zine Fest is sponsored in part by the generous
+                      support of Salt Lake City Arts Council
+                    </span>
+                  </p>
+                  <div class="hc-foot-links">
+                    <a
+                      href="index.html"
+                      data-thq-link-box="true"
+                      class="hc-foot-link"
+                    >
+                      <span>home</span>
+                    </a>
+                    <a
+                      href="about.html"
+                      data-thq-link-box="true"
+                      class="hc-foot-link"
+                    >
+                      <span>About</span>
+                    </a>
+                    <a
+                      href="newsletter.html"
+                      data-thq-link-box="true"
+                      class="hc-foot-link"
+                    >
+                      <span><span>NEWSLETTER</span></span>
+                    </a>
+                    <a
+                      href="past-fests.html"
+                      data-thq-link-box="true"
+                      class="hc-foot-link"
+                    >
+                      <span><span>PAST FESTS</span></span>
+                    </a>
+                  </div>
+                </div>
+                <p aria-hidden="true" class="hc-foot-mark">
+                  <span>GRID ZINE FEST</span>
+                </p>
+                <div class="hc-foot-bottom">
+                  <span class="hc-foot-legal">
+                    <span>© 2026 Grid Zine Fest</span>
+                  </span>
+                  <a
+                    href="https://www.instagram.com/gridzinefest"
+                    data-thq-link-box="true"
+                    class="hc-foot-social"
+                  >
+                    <span><span>Instagram ↗</span></span>
+                  </a>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </footer-wrapper>
+      </div>
+      <link
+        rel="canonical"
+        href="https://heatcheck-goiccy.teleporthq.site/authenticity1"
+      />
+    </div>
+    <script>
+      (function () {
+        var PROBE_ATTR = 'data-teleport-slider-probe';
+        var PROBE_MAX_LIFETIME_MS = 30000;
+        var SwiperCtor = null;
+        var capturedModules = null;
+        var probeEl = null;
+        var trackedInstances = [];
+        function safeJsonParse(raw) {
+          if (!raw) return null;
+          var decoder = document.createElement('textarea');
+          decoder.innerHTML = raw;
+          try { return JSON.parse(decoder.value); } catch (e) { return null; }
+        }
+        function toPositiveInt(v, fallback) {
+          var n = parseInt(v, 10);
+          return (!isNaN(n) && n > 0) ? n : fallback;
+        }
+        function toSpacing(v, fallback) {
+          // Zero is a legitimate gap, so it must not fall through to the default
+          // the way toPositiveInt makes it.
+          var n = parseInt(v, 10);
+          return (!isNaN(n) && n >= 0) ? n : fallback;
+        }
+        function buildBreakpoints(el) {
+          var raw = safeJsonParse(el.getAttribute('data-breakpoints')) || {};
+          var mobile = raw.mobile || {};
+          var tablet = raw.tablet || {};
+          var desktop = raw.desktop || {};
+          // With no breakpoint map, derive the per-width slide count from the
+          // slider's OWN base config instead of assuming a multi-card carousel.
+          // Hardcoding 3-on-desktop here overrode every single-slide slider that
+          // omits the map — the generator tells the model to omit it for hero
+          // carousels, and the gallery lightbox omitted it too — which fits every
+          // slide onto one page and leaves the arrows and bullets with nowhere to
+          // go. Same derivation the editor uses in flows/slider.ts.
+          var baseSlidesPerView = toPositiveInt(el.getAttribute('data-slides-per-view'), 1);
+          var bps = {};
+          bps[0] = {
+            slidesPerView: toPositiveInt(mobile.slidesPerView, 1),
+            spaceBetween: toSpacing(mobile.spaceBetween, 12),
+          };
+          bps[768] = {
+            slidesPerView: toPositiveInt(tablet.slidesPerView, Math.min(baseSlidesPerView, 2)),
+            spaceBetween: toSpacing(tablet.spaceBetween, 16),
+          };
+          bps[1024] = {
+            slidesPerView: toPositiveInt(desktop.slidesPerView, baseSlidesPerView),
+            spaceBetween: toSpacing(desktop.spaceBetween, 24),
+          };
+          return bps;
+        }
+        function buildConfig(el) {
+          var cfg = {
+            slidesPerView: toPositiveInt(el.getAttribute('data-slides-per-view'), 1),
+            spaceBetween: toPositiveInt(el.getAttribute('data-space-between'), 0),
+            breakpoints: buildBreakpoints(el),
+          };
+          // Carry over the module classes that the CDN bundle loaded
+          // initially (Navigation / Pagination / Autoplay). Without these
+          // the re-instantiated Swiper only has Resize + Observer — the
+          // navigation arrows and pagination bullets become dead.
+          if (capturedModules && capturedModules.length > 0) {
+            cfg.modules = capturedModules.slice();
+          }
+          if (el.getAttribute('data-pagination') === 'true') {
+            var paginationEl = el.querySelector('.swiper-pagination');
+            if (paginationEl) {
+              cfg.pagination = {
+                el: paginationEl,
+                clickable: true,
+                type: 'bullets',
+                renderBullet: bulletRendererFor(paginationEl),
+              };
+            }
+          }
+          if (el.getAttribute('data-navigation') === 'true') {
+            var nextEl = el.querySelector('.swiper-button-next');
+            var prevEl = el.querySelector('.swiper-button-prev');
+            if (nextEl && prevEl) cfg.navigation = { nextEl: nextEl, prevEl: prevEl };
+          }
+          return cfg;
+        }
+        // The bullet the editor designed is the template for every bullet Swiper
+        // renders — captured before any init pass replaces the container's
+        // children, and re-captured when React mounts a fresh container.
+        var BULLET_TEMPLATE_KEY = '__tqBulletTemplate';
+        function captureBulletTemplates() {
+          var containers = document.querySelectorAll('[data-thq="slider-pagination"]');
+          for (var i = 0; i < containers.length; i++) {
+            var container = containers[i];
+            if (container[BULLET_TEMPLATE_KEY]) continue;
+            var designed = container.querySelector('[data-thq="slider-pagination-bullet"]');
+            if (designed) container[BULLET_TEMPLATE_KEY] = designed.outerHTML;
+          }
+        }
+        function bulletRendererFor(paginationEl) {
+          var template = paginationEl[BULLET_TEMPLATE_KEY];
+          if (!template) return undefined;
+          return function (_index, className) {
+            var host = document.createElement('div');
+            host.innerHTML = template;
+            var bullet = host.firstElementChild;
+            if (!bullet) return '<span class="' + className + '"></span>';
+            bullet.classList.remove('swiper-pagination-bullet-active');
+            bullet.classList.add(className);
+            return bullet.outerHTML;
+          };
+        }
+        function captureFromInstance(instance) {
+          if (!instance) return;
+          if (!SwiperCtor && instance.constructor && instance.constructor.name === 'Swiper') {
+            SwiperCtor = instance.constructor;
+          }
+          if (!capturedModules && instance.params && Array.isArray(instance.params.modules)) {
+            // Clone so Swiper's own mutation of params.modules during teardown
+            // does not surprise us on a subsequent re-instantiation.
+            capturedModules = instance.params.modules.slice();
+          }
+        }
+        function createCtorProbe() {
+          // This script is inline in <body>, so it runs while the document is
+          // still parsing — before the deferred CDN bundle executes. The probe
+          // is therefore guaranteed to be present for the bundle's one and only
+          // init pass. It is appended at the end of <body>, after the Next.js
+          // root, so it is also the LAST element that pass reaches: even if the
+          // bundle ever choked on it, every real slider would already be built.
+          var host = document.body || document.documentElement;
+          if (!host) return;
+          try {
+            var el = document.createElement('div');
+            el.setAttribute('data-thq', 'slider');
+            el.setAttribute(PROBE_ATTR, 'true');
+            el.setAttribute('aria-hidden', 'true');
+            el.className = 'swiper';
+            el.style.cssText =
+              'position:absolute;left:-9999px;top:0;width:0;height:0;overflow:hidden;visibility:hidden;pointer-events:none';
+            el.innerHTML =
+              '<div data-thq="slider-wrapper" class="swiper-wrapper">' +
+              '<div data-thq="slider-slide" class="swiper-slide"></div></div>';
+            host.appendChild(el);
+            probeEl = el;
+            // Never leave the probe behind if the CDN bundle fails to load at all.
+            setTimeout(disposeProbe, PROBE_MAX_LIFETIME_MS);
+          } catch (_e) { /* best-effort */ }
+        }
+        function disposeProbe() {
+          if (!probeEl) return;
+          var el = probeEl;
+          probeEl = null;
+          try { if (el.swiper && !el.swiper.destroyed) el.swiper.destroy(true, false); } catch (_e) { /* best-effort */ }
+          try { if (el.parentNode) el.parentNode.removeChild(el); } catch (_e) { /* best-effort */ }
+        }
+        function captureCtorFromProbe() {
+          if (!probeEl) return;
+          if (probeEl.swiper) {
+            captureFromInstance(probeEl.swiper);
+          }
+          if (SwiperCtor) {
+            disposeProbe();
+          }
+        }
+        function trackInstance(instance) {
+          instance.__teleportPatched = true;
+          trackedInstances.push(instance);
+          return instance;
+        }
+        function reapDetachedInstances() {
+          // React unmounts a slider that lives inside a conditionally rendered
+          // subtree — the product gallery lightbox — every time it closes. That
+          // leaves our instance bound to a detached element with its window
+          // resize handler and ResizeObserver still live, and every reopen adds
+          // another one. Only DETACHED elements are reaped: destroy() nulls the
+          // element's swiper reference, which would sabotage a live element whose
+          // instance had since been replaced by someone else.
+          if (trackedInstances.length === 0) return;
+          var kept = [];
+          for (var i = 0; i < trackedInstances.length; i++) {
+            var instance = trackedInstances[i];
+            var el = instance && instance.el;
+            if (!el) continue;
+            if (document.contains(el)) {
+              kept.push(instance);
+              continue;
+            }
+            try { if (!instance.destroyed) instance.destroy(true, false); } catch (_e) { /* best-effort */ }
+          }
+          trackedInstances = kept;
+        }
+        function collectSliders() {
+          var all = document.querySelectorAll('[data-thq="slider"]');
+          var sliders = [];
+          for (var i = 0; i < all.length; i++) {
+            if (all[i].hasAttribute(PROBE_ATTR)) continue;
+            sliders.push(all[i]);
+          }
+          return sliders;
+        }
+        function rebuildPaginationDom(instance) {
+          // Pagination bullets can be re-appended after our construction by
+          // the CDN bundle's scheduled post-init render or by React
+          // reconciliation during SPA back-nav. We re-query the pagination
+          // container from the live instance (rather than a captured
+          // reference) because React may have replaced the container DOM
+          // node during a re-mount.
+          try {
+            if (instance.destroyed) return;
+            var pagEl = instance.pagination && instance.pagination.el;
+            if (pagEl) pagEl.innerHTML = '';
+            if (instance.pagination && typeof instance.pagination.render === 'function') {
+              instance.pagination.render();
+            }
+            if (instance.pagination && typeof instance.pagination.update === 'function') {
+              instance.pagination.update();
+            }
+          } catch (_e) { /* best-effort */ }
+        }
+        function replaceWithFreshInstance(el) {
+          // Destroy the CDN-constructed Swiper and rebuild it with the
+          // proper config up front. Patching in place (setBreakpoint +
+          // update) leaves pagination stuck at the original bullet count
+          // (5 for 5 slides at the default slidesPerView=1), Swiper's
+          // external pagination.render() APPENDS instead of rebuilding,
+          // and there is no other public API to force a clean rebuild of
+          // the pagination subsystem. A fresh construction with the right
+          // breakpoints, pagination el, and navigation els gives us the
+          // correct page count (ceil(slides / slidesPerView)) and the
+          // first bullet correctly marked active.
+          try {
+            var pagEl = el.querySelector('.swiper-pagination');
+            try { el.swiper.destroy(true, true); } catch (_destroyErr) { /* best-effort */ }
+            // Clear any pagination bullets Swiper's destroy left behind so
+            // our new render() does not append to them.
+            if (pagEl) pagEl.innerHTML = '';
+            if (!SwiperCtor) return false;
+            var instance = trackInstance(new SwiperCtor(el, buildConfig(el)));
+            // The CDN bundle schedules a delayed pagination render that
+            // fires even after our destroy-and-recreate, re-appending
+            // bullets into the container. React can also restore stale
+            // bullet nodes from the prior page visit during SPA back-nav
+            // reconciliation. Rebuild at several timings so any late
+            // injection is mopped up.
+            setTimeout(function () { rebuildPaginationDom(instance); }, 100);
+            setTimeout(function () { rebuildPaginationDom(instance); }, 400);
+            setTimeout(function () { rebuildPaginationDom(instance); }, 1000);
+            return true;
+          } catch (_err) {
+            return false;
+          }
+        }
+        var isWorking = false;
+        function ensureSwiper(el) {
+          if (!el) return false;
+          if (el.swiper && el.swiper.__teleportPatched) return true;
+          // Guard against reentry: constructing or modifying a Swiper mutates
+          // the DOM, which re-fires the outer MutationObserver synchronously
+          // and would otherwise loop back into this function against a
+          // half-initialised instance.
+          if (isWorking) return false;
+          isWorking = true;
+          try {
+            if (el.swiper) {
+              // Don't touch a Swiper that the CDN bundle is still constructing
+              // — interfering before it finishes corrupts the layout. The
+              // destroyed check covers the window between destroy and the
+              // next mount.
+              if (el.swiper.destroyed) return false;
+              captureFromInstance(el.swiper);
+              // Rebuild the instance from scratch with the correct config:
+              // the CDN's default config ignores our breakpoints and the
+              // pagination bullet count is locked to the original slide
+              // count. A destroy + re-create is the only way to get the
+              // right page-count pagination plus a correctly marked first
+              // active bullet.
+              return replaceWithFreshInstance(el);
+            }
+            // No .swiper attached — either the CDN bundle hasn't fired yet
+            // (poll will retry), or the element was freshly re-mounted by
+            // Next.js SPA back/forward nav, or a modal just revealed a slider
+            // the bundle never saw. The bundle only inits on the initial
+            // DOMContentLoaded (plus a URL change), so it won't re-init any of
+            // those. Construct our own instance with the captured ctor + modules.
+            if (!SwiperCtor) return false;
+            try {
+              // Clear any stale pagination/navigation DOM that survived the
+              // re-mount so the fresh Swiper's render() doesn't append to
+              // leftover bullets/arrows from the previous page visit.
+              var stalePagination = el.querySelector('.swiper-pagination');
+              if (stalePagination) stalePagination.innerHTML = '';
+              trackInstance(new SwiperCtor(el, buildConfig(el)));
+              return true;
+            } catch (_err) {
+              return false;
+            }
+          } finally {
+            isWorking = false;
+          }
+        }
+        function normalisePaginationCount() {
+          // Defensive cleanup: any time the bootstrapper's trigger fires
+          // (initial load, pageshow, or DOM mutation), reconcile the
+          // pagination DOM with the Swiper instance's own bullet tracking.
+          // The CDN bundle and React's SPA reconciliation can leak extra
+          // bullet elements into the container; this keeps the visible
+          // bullet count aligned with the post-breakpoint page count.
+          var all = collectSliders();
+          for (var i = 0; i < all.length; i++) {
+            var el = all[i];
+            if (!el.swiper || !el.swiper.__teleportPatched) continue;
+            if (el.swiper.destroyed) continue;
+            var pagEl = el.swiper.pagination && el.swiper.pagination.el;
+            if (!pagEl) continue;
+            var domCount = pagEl.querySelectorAll('.swiper-pagination-bullet').length;
+            var tracked =
+              el.swiper.pagination && el.swiper.pagination.bullets
+                ? el.swiper.pagination.bullets.length
+                : 0;
+            if (domCount !== tracked && tracked > 0) {
+              rebuildPaginationDom(el.swiper);
+            }
+          }
+        }
+        function ensureAll() {
+          captureCtorFromProbe();
+          reapDetachedInstances();
+          var all = collectSliders();
+          var allDone = all.length > 0;
+          for (var i = 0; i < all.length; i++) {
+            if (!ensureSwiper(all[i])) allDone = false;
+          }
+          normalisePaginationCount();
+          return allDone;
+        }
+        var pollTimer = null;
+        function startPolling() {
+          if (pollTimer) return;
+          var tries = 0;
+          pollTimer = setInterval(function () {
+            tries += 1;
+            if (ensureAll() || tries >= 80) {
+              clearInterval(pollTimer);
+              pollTimer = null;
+            }
+          }, 100);
+        }
+        function trigger() {
+          captureBulletTemplates();
+          if (!ensureAll()) startPolling();
+        }
+        // Delay the first trigger until after the CDN bundle has finished
+        // its own init pass. Running too early lets the MutationObserver
+        // fire while the CDN's Swiper is half-constructed and our patch
+        // interferes with layout.
+        function scheduleInitialTrigger() {
+          setTimeout(trigger, 200);
+        }
+        captureBulletTemplates();
+        createCtorProbe();
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', scheduleInitialTrigger);
+        } else {
+          scheduleInitialTrigger();
+        }
+        window.addEventListener('pageshow', trigger);
+        // Observe the whole document so Next.js SPA back-nav (which re-mounts
+        // the slider element without an attached .swiper instance) triggers
+        // re-instantiation via the captured ctor. Don't invoke the patch
+        // synchronously on each mutation — the CDN bundle's own Swiper
+        // construction fires many mutations and we'd otherwise patch a
+        // half-initialised instance. Debounce through a macrotask so the
+        // current sync mutation chain finishes first.
+        var mutationPending = false;
+        try {
+          var observer = new MutationObserver(function () {
+            if (mutationPending) return;
+            mutationPending = true;
+            setTimeout(function () { mutationPending = false; trigger(); }, 150);
+          });
+          observer.observe(document.documentElement, { childList: true, subtree: true });
+        } catch (_e) { /* MutationObserver unsupported — polling still covers initial load */ }
+      })();
+    </script>
+  </body>
+</html>
