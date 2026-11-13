@@ -19,7 +19,7 @@
   max-height: var(--spacing-lg);
 }
 
-.logo-wrapper-cc57 {
+.logo-wrapper-bam0 {
   display: contents;
 }
  
@@ -214,16 +214,16 @@
  
 @media(max-width: 479px) {
   .home-thq-home-hero-inner-elm.home-thq-home-hero-inner-elm {
-    width: 98%;
+    width: auto;
   }
   .home-thq-home-hero-copy-elm.home-thq-home-hero-copy-elm {
-    width: 98%;
+    width: auto;
   }
   .home-thq-home-hero-stage-elm.home-thq-home-hero-stage-elm {
-    width: 98%;
+    width: auto;
   }
   .home-image1.home-image1 {
-    width: 446px;
+    width: 100%;
   }
   .home-text24.home-text24 {
     text-decoration: underline;
