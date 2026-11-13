@@ -19,7 +19,7 @@
   max-height: var(--spacing-lg);
 }
 
-.logo-wrapper-pzjr {
+.logo-wrapper-cc57 {
   display: contents;
 }
  
@@ -176,7 +176,7 @@
   font-size: 24px;
 }
  
-.home-text27.home-text27 {
+.home-text24.home-text24 {
   text-decoration: underline;
 }
  
@@ -213,16 +213,19 @@
 }
  
 @media(max-width: 479px) {
+  .home-thq-home-hero-inner-elm.home-thq-home-hero-inner-elm {
+    width: 98%;
+  }
   .home-thq-home-hero-copy-elm.home-thq-home-hero-copy-elm {
-    width: 453px;
+    width: 98%;
   }
   .home-thq-home-hero-stage-elm.home-thq-home-hero-stage-elm {
-    width: 453px;
+    width: 98%;
   }
   .home-image1.home-image1 {
     width: 446px;
   }
-  .home-text27.home-text27 {
+  .home-text24.home-text24 {
     text-decoration: underline;
   }
 }
